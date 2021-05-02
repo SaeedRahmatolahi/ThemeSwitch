@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CABE3D1263E51C60075003A /* ThemeSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CABE3CF263E51C60075003A /* ThemeSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CABE3D9263E526C0075003A /* ThemeSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CABE3D8263E526C0075003A /* ThemeSwitch.swift */; };
+		5CABE3DB263E52860075003A /* ThemeSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CABE3DA263E52860075003A /* ThemeSwitch.xib */; };
+		5CABE3DD263E69810075003A /* ThemeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CABE3DC263E69810075003A /* ThemeConfiguration.swift */; };
+		5CABE3DF263E69BE0075003A /* ThemeSwitchExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CABE3DE263E69BE0075003A /* ThemeSwitchExtensions.swift */; };
+		5CABE3E2263E6A1B0075003A /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CABE3E1263E6A1B0075003A /* cloud.png */; };
+		5CABE3E4263E6A2D0075003A /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CABE3E3263E6A2D0075003A /* moon.png */; };
+		5CABE3E6263E6A3D0075003A /* stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CABE3E5263E6A3D0075003A /* stars.png */; };
+		5CABE3E8263E6A450075003A /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CABE3E7263E6A450075003A /* sun.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CABE3CC263E51C60075003A /* ThemeSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThemeSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CABE3CF263E51C60075003A /* ThemeSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeSwitch.h; sourceTree = "<group>"; };
+		5CABE3D0263E51C60075003A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CABE3D8263E526C0075003A /* ThemeSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSwitch.swift; sourceTree = "<group>"; };
+		5CABE3DA263E52860075003A /* ThemeSwitch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThemeSwitch.xib; sourceTree = "<group>"; };
+		5CABE3DC263E69810075003A /* ThemeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeConfiguration.swift; sourceTree = "<group>"; };
+		5CABE3DE263E69BE0075003A /* ThemeSwitchExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSwitchExtensions.swift; sourceTree = "<group>"; };
+		5CABE3E1263E6A1B0075003A /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+		5CABE3E3263E6A2D0075003A /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
+		5CABE3E5263E6A3D0075003A /* stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stars.png; sourceTree = "<group>"; };
+		5CABE3E7263E6A450075003A /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CABE3C9263E51C60075003A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CABE3C2263E51C60075003A = {
+			isa = PBXGroup;
+			children = (
+				5CABE3CE263E51C60075003A /* ThemeSwitch */,
+				5CABE3CD263E51C60075003A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CABE3CD263E51C60075003A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CABE3CC263E51C60075003A /* ThemeSwitch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CABE3CE263E51C60075003A /* ThemeSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				5CABE3CF263E51C60075003A /* ThemeSwitch.h */,
+				5CABE3D7263E52550075003A /* ThemeSwitch */,
+				5CABE3D0263E51C60075003A /* Info.plist */,
+			);
+			path = ThemeSwitch;
+			sourceTree = "<group>";
+		};
+		5CABE3D7263E52550075003A /* ThemeSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				5CABE3D8263E526C0075003A /* ThemeSwitch.swift */,
+				5CABE3DA263E52860075003A /* ThemeSwitch.xib */,
+				5CABE3DC263E69810075003A /* ThemeConfiguration.swift */,
+				5CABE3DE263E69BE0075003A /* ThemeSwitchExtensions.swift */,
+				5CABE3E0263E6A070075003A /* ThemeSwitchAssets */,
+			);
+			path = ThemeSwitch;
+			sourceTree = "<group>";
+		};
+		5CABE3E0263E6A070075003A /* ThemeSwitchAssets */ = {
+			isa = PBXGroup;
+			children = (
+				5CABE3E1263E6A1B0075003A /* cloud.png */,
+				5CABE3E3263E6A2D0075003A /* moon.png */,
+				5CABE3E7263E6A450075003A /* sun.png */,
+				5CABE3E5263E6A3D0075003A /* stars.png */,
+			);
+			path = ThemeSwitchAssets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5CABE3C7263E51C60075003A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CABE3D1263E51C60075003A /* ThemeSwitch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5CABE3CB263E51C60075003A /* ThemeSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CABE3D4263E51C60075003A /* Build configuration list for PBXNativeTarget "ThemeSwitch" */;
+			buildPhases = (
+				5CABE3C7263E51C60075003A /* Headers */,
+				5CABE3C8263E51C60075003A /* Sources */,
+				5CABE3C9263E51C60075003A /* Frameworks */,
+				5CABE3CA263E51C60075003A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThemeSwitch;
+			productName = ThemeSwitch;
+			productReference = 5CABE3CC263E51C60075003A /* ThemeSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CABE3C3263E51C60075003A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5CABE3CB263E51C60075003A = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 5CABE3C6263E51C60075003A /* Build configuration list for PBXProject "ThemeSwitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CABE3C2263E51C60075003A;
+			productRefGroup = 5CABE3CD263E51C60075003A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CABE3CB263E51C60075003A /* ThemeSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CABE3CA263E51C60075003A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CABE3E8263E6A450075003A /* sun.png in Resources */,
+				5CABE3DB263E52860075003A /* ThemeSwitch.xib in Resources */,
+				5CABE3E6263E6A3D0075003A /* stars.png in Resources */,
+				5CABE3E2263E6A1B0075003A /* cloud.png in Resources */,
+				5CABE3E4263E6A2D0075003A /* moon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CABE3C8263E51C60075003A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CABE3DF263E69BE0075003A /* ThemeSwitchExtensions.swift in Sources */,
+				5CABE3DD263E69810075003A /* ThemeConfiguration.swift in Sources */,
+				5CABE3D9263E526C0075003A /* ThemeSwitch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CABE3D2263E51C60075003A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CABE3D3263E51C60075003A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CABE3D5263E51C60075003A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8R65X8Z96A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ThemeSwitch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.saeed.ThemeSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CABE3D6263E51C60075003A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8R65X8Z96A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ThemeSwitch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.saeed.ThemeSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CABE3C6263E51C60075003A /* Build configuration list for PBXProject "ThemeSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CABE3D2263E51C60075003A /* Debug */,
+				5CABE3D3263E51C60075003A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CABE3D4263E51C60075003A /* Build configuration list for PBXNativeTarget "ThemeSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CABE3D5263E51C60075003A /* Debug */,
+				5CABE3D6263E51C60075003A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CABE3C3263E51C60075003A /* Project object */;
+}
