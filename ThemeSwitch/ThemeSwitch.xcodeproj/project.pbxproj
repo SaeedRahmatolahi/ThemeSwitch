@@ -63,13 +63,13 @@
 			isa = PBXGroup;
 			children = (
 				5CABE3CF263E51C60075003A /* ThemeSwitch.h */,
-				5CABE3D7263E52550075003A /* ThemeSwitch */,
+				5CABE3D7263E52550075003A /* ThemeSwitchFiles */,
 				5CABE3D0263E51C60075003A /* Info.plist */,
 			);
 			path = ThemeSwitch;
 			sourceTree = "<group>";
 		};
-		5CABE3D7263E52550075003A /* ThemeSwitch */ = {
+		5CABE3D7263E52550075003A /* ThemeSwitchFiles */ = {
 			isa = PBXGroup;
 			children = (
 				5CABE3D8263E526C0075003A /* ThemeSwitch.swift */,
@@ -78,7 +78,7 @@
 				5CABE3DE263E69BE0075003A /* ThemeSwitchExtensions.swift */,
 				5CABE3E0263E6A070075003A /* ThemeSwitchAssets */,
 			);
-			path = ThemeSwitch;
+			path = ThemeSwitchFiles;
 			sourceTree = "<group>";
 		};
 		5CABE3E0263E6A070075003A /* ThemeSwitchAssets */ = {
@@ -325,6 +325,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.saeed.ThemeSwitch;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -352,6 +353,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.saeed.ThemeSwitch;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

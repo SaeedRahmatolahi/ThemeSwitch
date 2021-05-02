@@ -10,10 +10,10 @@ import UIKit
 struct ThemeConfiguration {
     var theme : theme = .light
     var animationDuration : TimeInterval = 0.3
-    var lightImage : UIImage = UIImage(named: "sun") ?? UIImage()
-    var darkImage : UIImage = UIImage(named: "moon") ?? UIImage()
-    var lightEffect : UIImage = UIImage(named: "cloud") ?? UIImage()
-    var darkEffect : UIImage = UIImage(named: "stars") ?? UIImage()
+    var lightImage : UIImage = UIImage(named: "sun.png") ?? UIImage()
+    var darkImage : UIImage = UIImage(named: "moon.png") ?? UIImage()
+    var lightEffect : UIImage = UIImage(named: "cloud.png") ?? UIImage()
+    var darkEffect : UIImage = UIImage(named: "stars.png") ?? UIImage()
     var lightColor : UIColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)
     var darkColor : UIColor = #colorLiteral(red: 0.03777536377, green: 0.1315395236, blue: 0.2186227143, alpha: 1)
     var margin : CGFloat = 3
